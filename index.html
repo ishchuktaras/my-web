@@ -26,7 +26,11 @@
 <body>
 	
 		<div>
-			<i class="fas fa-heart"></i>
+			<a href="#" id="hart" onclick="playAudio()";><i class="fas fa-heart"></i></a>
+			<audio controls>
+				<source src="bumboks-lyudi.mp3" type="audio/mpeg">
+			</audio>
+			<p>Торкнися серця, моя люба</p>
 		</div>
 	
 
@@ -34,6 +38,13 @@
 	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
 
 	<script src="js/common.js"></script>
+	<script type="text/javascript">
+		function playAudio(){
+			 var myAudio = new Audio;
+			 myAudio.src = "bumboks-lyudi.mp3";
+			 myAudio.play();
+		}
+ </script>
 
 </body>
 
