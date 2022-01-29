@@ -46,8 +46,15 @@ body {
 	border-radius: 4px;
 }
 
-header div{
-	display: none;
+ .fa-heart {
+	color: red;
+}
+
+div {
+	display: flex;
+	margin: 30px auto;
+	color: lawngreen;
+	font-size: 1.5em;
 }
 
 
