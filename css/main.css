@@ -51,11 +51,10 @@ body {
 }
 
 div {
-	display: flex;
-	margin: 30px auto;
-	color: lawngreen;
-	font-size: 1.8em;
+	margin: 50px auto;
+	font-size: 20em;
 	font-weight: 800;
+	text-align: center;
 }
 
 
